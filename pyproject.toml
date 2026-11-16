@@ -1,0 +1,11 @@
+[project]
+name = "agendamentos-api"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi[standart]>=0.163.1",
+    "pytest>=9.2.0",
+    "sqlalchemy>=2.1.8",
+]
